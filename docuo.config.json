@@ -1,6 +1,21 @@
 {
   "title": "My site",
   "favicon": "image/favicon.ico",
+  "instances": [
+    {
+      "id": "default",
+      "label": "docs",
+      "path": "docs",
+      "routeBasePath": "sunlytest"
+    }
+  ],
+  "search": {
+    "algolia": {
+        "appId": "24083JW88L",
+        "apiKey": "5ec85b3104c941999985d4f528b6376b",
+        "indexName": "sunlyproject1-hdh34-spreading"
+    }
+  },
   "themeConfig": {
     "navbar": {
       "title": "My project",
