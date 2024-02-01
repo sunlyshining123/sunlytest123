@@ -1,19 +1,11 @@
 {
   "title": "My site",
   "favicon": "image/favicon.ico",
-  "instances": [
-    {
-      "id": "default",
-      "label": "docs",
-      "path": "docs",
-      "routeBasePath": "sunlytest"
-    }
-  ],
   "search": {
     "algolia": {
-        "appId": "24083JW88L",
-        "apiKey": "5ec85b3104c941999985d4f528b6376b",
-        "indexName": "sunlyproject1-hdh34-spreading"
+      "appId": "24083JW88L",
+      "apiKey": "5ec85b3104c941999985d4f528b6376b",
+      "indexName": "sunlyproject1-hdh34-spreading"
     }
   },
   "themeConfig": {
@@ -22,10 +14,19 @@
       "logo": "image/logo.png",
       "items": [
         {
+          "type": "docsInstanceDropdown"
+        },
+        {
+          "type": "docsVersionDropdown",
+          "docsInstanceId": ""
+        },
+        {
           "type": "docSidebar",
-          "sidebarIds": ["mySidebar"],
+          "sidebarIds": [
+            "mySidebar"
+          ],
           "label": "Documentation",
-          "position": "left"
+          "docsInstanceId": "default"
         }
       ]
     },
@@ -62,5 +63,25 @@
         }
       ]
     }
-  }
+  },
+  "instances": [
+    {
+      "id": "default",
+      "label": "docs",
+      "path": "docs",
+      "routeBasePath": "default"
+    },
+    {
+      "id": "web",
+      "label": "web",
+      "path": "web_docs",
+      "routeBasePath": "web"
+    },
+    {
+      "id": "ios",
+      "label": "ios",
+      "path": "ios_docs",
+      "routeBasePath": "ios"
+    }
+  ]
 }
