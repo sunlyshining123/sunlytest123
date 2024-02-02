@@ -1,6 +1,6 @@
 {
   "title": "My site",
-  "favicon": "image/favicon.ico",
+  "favicon": "https://media-resource.spreading.io/docuo/workspace10/bfc4cbdb0092251e821207665ee41f54/favicon.ico",
   "search": {
     "algolia": {
       "appId": "24083JW88L",
@@ -10,8 +10,8 @@
   },
   "themeConfig": {
     "navbar": {
-      "title": "My project",
-      "logo": "image/logo.png",
+      "title": "sunliying%20pro",
+      "logo": "https://media-resource.spreading.io/docuo/workspace10/bfc4cbdb0092251e821207665ee41f54/logo.png",
       "items": [
         {
           "type": "docsInstanceDropdown"
@@ -28,7 +28,8 @@
           "label": "Documentation",
           "docsInstanceId": "default"
         }
-      ]
+      ],
+      "iconRedirectUrl": "https://markdown.com.cn/extended-syntax/automatic-url-linking.html"
     },
     "footer": {
       "logo": "image/logo.png",
