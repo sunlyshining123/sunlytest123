@@ -87,10 +87,10 @@
       "routeBasePath": "1234567"
     },
     {
-      "id": "flutter",
-      "label": "flutter",
-      "path": "flutter_docs",
-      "routeBasePath": "flutter"
+      "id": "FLUTTER",
+      "label": "FLUTTER",
+      "path": "FLUTTER_docs",
+      "routeBasePath": "FLUTTER"
     },
     {
       "id": "a1233",
