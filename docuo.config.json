@@ -75,40 +75,22 @@
   },
   "instances": [
     {
+      "id": "default",
+      "label": "docs",
+      "path": "docs",
+      "routeBasePath": "sunliying"
+    },
+    {
       "id": "web",
       "label": "web",
       "path": "web_docs",
       "routeBasePath": "web"
     },
     {
-      "id": "~!@#$%^&()_+-={}[];',",
-      "label": "~!@#$%^&()_+-={}[];',",
-      "path": "~!@#$%^&()_+-={}[];',_docs",
-      "routeBasePath": "1234567"
-    },
-    {
-      "id": "FLUTTER",
-      "label": "FLUTTER",
-      "path": "FLUTTER_docs",
-      "routeBasePath": "FLUTTER"
-    },
-    {
-      "id": "a1233",
-      "label": "a1233",
-      "path": "a1233_docs",
-      "routeBasePath": "a1233"
-    },
-    {
-      "id": "a1234",
-      "label": "qq232",
-      "path": "a1234_docs",
-      "routeBasePath": "a1234"
-    },
-    {
-      "id": "a1238888",
-      "label": "a8888",
-      "path": "a8888_docs",
-      "routeBasePath": "a88888"
+      "id": "flutter",
+      "label": "flutter",
+      "path": "flutter_docs",
+      "routeBasePath": "flutter"
     }
   ]
 }
