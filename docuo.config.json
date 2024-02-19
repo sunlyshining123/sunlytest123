@@ -25,8 +25,16 @@
           "sidebarIds": [
             "mySidebar"
           ],
-          "label": "Documentation",
+          "label": "默认实例",
           "docsInstanceId": "default"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarIds": [
+            "mySidebar"
+          ],
+          "label": "web实例",
+          "docsInstanceId": "web"
         }
       ],
       "iconRedirectUrl": "https://markdown.com.cn/extended-syntax/automatic-url-linking.html"
@@ -73,10 +81,10 @@
       "routeBasePath": "web"
     },
     {
-      "id": "123456",
-      "label": "123456",
-      "path": "123456_docs",
-      "routeBasePath": "123456"
+      "id": "~!@#$%^&()_+-={}[];',",
+      "label": "~!@#$%^&()_+-={}[];',",
+      "path": "~!@#$%^&()_+-={}[];',_docs",
+      "routeBasePath": "1234567"
     },
     {
       "id": "flutter",
@@ -101,12 +109,6 @@
       "label": "a8888",
       "path": "a8888_docs",
       "routeBasePath": "a88888"
-    },
-    {
-      "id": "xioachengxu",
-      "label": "qqqq123",
-      "path": "xioachengxu_docs",
-      "routeBasePath": "qqq345"
     }
   ]
 }
