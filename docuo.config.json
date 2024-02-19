@@ -67,22 +67,46 @@
   },
   "instances": [
     {
-      "id": "default",
-      "label": "docs",
-      "path": "docs",
-      "routeBasePath": "default"
-    },
-    {
       "id": "web",
       "label": "web",
       "path": "web_docs",
       "routeBasePath": "web"
     },
     {
-      "id": "ios",
-      "label": "ios",
-      "path": "ios_docs",
-      "routeBasePath": "ios"
+      "id": "123456",
+      "label": "123456",
+      "path": "123456_docs",
+      "routeBasePath": "123456"
+    },
+    {
+      "id": "flutter",
+      "label": "flutter",
+      "path": "flutter_docs",
+      "routeBasePath": "flutter"
+    },
+    {
+      "id": "a1233",
+      "label": "a1233",
+      "path": "a1233_docs",
+      "routeBasePath": "a1233"
+    },
+    {
+      "id": "a1234",
+      "label": "qq232",
+      "path": "a1234_docs",
+      "routeBasePath": "a1234"
+    },
+    {
+      "id": "a1238888",
+      "label": "a8888",
+      "path": "a8888_docs",
+      "routeBasePath": "a88888"
+    },
+    {
+      "id": "xioachengxu",
+      "label": "qqqq123",
+      "path": "xioachengxu_docs",
+      "routeBasePath": "qqq345"
     }
   ]
 }
